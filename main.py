@@ -189,6 +189,4 @@ while is_there_an_empty_cell(l) or is_there_a_way_out(l):
             draw_interface(score, delta)
             pygame.display.update()
 
-    print(USERNAME)   #чтобы убедиться, что имя сохранилось
-
 draw_game_over()
