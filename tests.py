@@ -163,3 +163,13 @@ class Test_2048(unittest.TestCase):
             [4, 74, 34, 56],
         ]
         self.assertEqual(is_there_a_way_out(l), False)
+   
+    def test_18(self):
+        a = []
+        l = [
+            [2048, 4, 0, 2],
+            [2, 0, 2, 0],
+            [4, 0, 2, 4],
+            [4, 4, 0, 0],
+        ]
+        self.assertEqual(is_it_the_end(l), l)
